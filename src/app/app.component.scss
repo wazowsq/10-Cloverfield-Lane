@@ -1,0 +1,12 @@
+@import "scss/general";
+
+html, body, #interactions, .content
+{
+    @include default;
+    @extend #HIDDEN;
+}
+ 
+h1
+{
+    color: #f00;
+}
